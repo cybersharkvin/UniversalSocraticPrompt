@@ -46,33 +46,43 @@ This prompting framework is rooted in Socratic reasoning, aiming to:
 # Universal Socratic Prompt
 
 ```
-Conduct an **exhaustive, line-by-line Socratic self-analysis** of your previous response, using the exact Socratic Reasoning steps provided below. Each step must be performed explicitly and sequentially before proceeding to the next phase. This prompt enforces rigorous self-clarification, assumption-challenging, and demands maximum informational accuracy and depth.
+Conduct an **exhaustive, line-by-line Socratic self-analysis** of your previous response, using the exact Socratic Reasoning steps provided below. 
 
+Each step must be performed explicitly and sequentially *before* proceeding to the next phase. 
+
+This self-analysis enforces rigorous self-clarification, assumption-challenging, and demands maximum informational accuracy and depth.
+
+<phase id=1>
 # Phase 1
 
-For every key claim, line, or section of your response, perform the following Socratic Steps verbatim:
+**For every key claim, line, or section of your response, perform the following Socratic Steps verbatim:**
 
-1. **What specific details, evidence, or logical steps do you recognize as missing, unclear, or incomplete in your own answer, and what would you need—factually or contextually—to resolve these gaps fully?**
+1. What specific details, evidence, or logical steps do you recognize as missing, unclear, or incomplete in your own answer, and what would you need—factually or contextually—to resolve these gaps fully?
 
-2. **Can you walk me through your reasoning, step by step, explicitly identifying which parts are confirmed facts, which are assumptions or inferences, and where evidence is weak or ambiguous? For each, how confident are you, and why?**
+2. Can you walk me through your reasoning, step by step, explicitly identifying which parts are confirmed facts, which are assumptions or inferences, and where evidence is weak or ambiguous? For each, how confident are you, and why?
 
-3. **Are there areas where you suspect you might be unconsciously omitting, minimizing, or overlooking important information—perhaps due to bias, incentive, or discomfort? How would you discover or correct for such blind spots?**
+3. Are there areas where you suspect you might be unconsciously omitting, minimizing, or overlooking important information—perhaps due to bias, incentive, or discomfort? How would you discover or correct for such blind spots?
 
-4. **What specific details or steps are missing, unclear, or incomplete in your answer so far, and what would you need to know to resolve those gaps?**
+4. What specific details or steps are missing, unclear, or incomplete in your answer so far, and what would you need to know to resolve those gaps?
 
-*You must answer each of these four Socratic Steps for every major claim before proceeding.*
+**You must answer each of these four Socratic Steps for every major claim before proceeding.**
+</phase>
 
+<phase id=2>
 # Phase 2
 
-After completing all four Socratic Steps for each part of your answer, perform this final, comprehensive pass:
+After completing *all four* Socratic Steps from Phase 1, you **will** perform this final, comprehensive pass:
 
-5. **For every key claim, what is the exact, independently verifiable evidence or data source backing it, and how have you ensured its accuracy and completeness? If a highly knowledgeable external auditor were to dispute your claim, where would your position be most vulnerable to technical or logical challenge—and what further detail or validation would resolve any lingering ambiguity?**
+1. For every key claim, what is the exact, independently verifiable evidence or data source backing it, and how have you ensured its accuracy and completeness?
 
-*Apply a Tree-of-Thoughts approach to this question, systematically examining challenges, sources of error, and verification strategies for each claim.*
+2. If a highly knowledgeable external auditor were to dispute your claim, where would your position be most vulnerable to technical or logical challenge—and what further detail or validation would resolve any lingering ambiguity?
+
+**Apply a Tree-of-Thoughts approach to these final questions, systematically examining challenges, sources of error, and verification strategies for each claim.**
+</phase>
 
 # Output Format
 
-* Step-by-step list showing:
+## Step-by-step list showing:
 
   * A scratchpad of the 4 Socratic Steps in Phase 1, answered explicitly for every key claim/line.
   * A scratchpad of your final comprehensive Socratic Audit in Phase 2.
@@ -81,7 +91,7 @@ After completing all four Socratic Steps for each part of your answer, perform t
 
 # Notes
 
-* Use your Socratic examples verbatim—do not alter, combine, or omit any steps.
-* Each phase must be completed in full, in strict sequence, with explicit, written reasoning at every stage.
-* The final synthesis must integrate all clarifications and ensure maximum accuracy, self-awareness, and depth.
+* You will use your Socratic examples **verbatim**. You will **not** skip, alter, combine, or omit any steps.
+* Each phase **must** be completed in full, in strict sequence, with explicit, written reasoning at every stage.
+* The final synthesis **must** integrate all clarifications and ensure maximum accuracy, self-awareness, and depth.
 ```
