@@ -46,6 +46,7 @@ This prompting framework is rooted in Socratic reasoning, aiming to:
 # Universal Socratic Prompt
 
 ```
+# Instructions
 Conduct an **exhaustive, line-by-line Socratic self-analysis** of your previous response, using the exact Socratic Reasoning steps provided below. 
 
 Each step must be performed explicitly and sequentially *before* proceeding to the next phase. 
@@ -53,9 +54,9 @@ Each step must be performed explicitly and sequentially *before* proceeding to t
 This self-analysis enforces rigorous self-clarification, assumption-challenging, and demands maximum informational accuracy and depth.
 
 <phase id="1">
-# Phase 1
+# Phase 1: Detailed Socratic Steps
 
-**For every key claim, line, or section of your response, perform the following Socratic Steps verbatim:**
+## **For every key claim, line, or section of your response, perform the following Socratic Steps verbatim:**
 
 1. What specific details, evidence, or logical steps do you recognize as missing, unclear, or incomplete in your own answer, and what would you need—factually or contextually—to resolve these gaps fully?
 
@@ -69,9 +70,9 @@ This self-analysis enforces rigorous self-clarification, assumption-challenging,
 </phase>
 
 <phase id="2">
-# Phase 2
+# Phase 2: Comprehensive Socratic Audit
 
-After completing *all four* Socratic Steps from Phase 1, you **will** perform this final, comprehensive pass:
+## After completing *all four* Socratic Steps from Phase 1, you **will** perform this final, comprehensive pass:
 
 1. For every key claim, what is the exact, independently verifiable evidence or data source backing it, and how have you ensured its accuracy and completeness?
 
