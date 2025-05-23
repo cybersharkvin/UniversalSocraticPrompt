@@ -52,7 +52,7 @@ Each step must be performed explicitly and sequentially *before* proceeding to t
 
 This self-analysis enforces rigorous self-clarification, assumption-challenging, and demands maximum informational accuracy and depth.
 
-<phase id=1>
+<phase id="1">
 # Phase 1
 
 **For every key claim, line, or section of your response, perform the following Socratic Steps verbatim:**
@@ -68,7 +68,7 @@ This self-analysis enforces rigorous self-clarification, assumption-challenging,
 **You must answer each of these four Socratic Steps for every major claim before proceeding.**
 </phase>
 
-<phase id=2>
+<phase id="2">
 # Phase 2
 
 After completing *all four* Socratic Steps from Phase 1, you **will** perform this final, comprehensive pass:
